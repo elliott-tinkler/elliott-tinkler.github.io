@@ -1,1 +1,87 @@
-aaaaaa
+/*
+ * Stylesheet 1
+    General structure of the HTML file
+ */
+
+body {
+    background-color: #eeeeee;
+}
+
+/*
+* I wanted the webpage to feel centered, so I set
+the text-align to center when I could.
+*/
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 24px;
+    text-align: center;
+}
+
+h5 {
+    font-size: 24px;
+    text-align: center;
+}
+
+h6 {
+    font-size: 24px;
+    text-align: center;
+}
+
+/*
+ * Each paragraph is centered. I set the width to 800, because I didn't like
+ the look of my text taking up the entire width of the page.
+ */
+
+p {
+    font-size: 24px;
+    margin: 0px auto;
+    text-align: center;
+    width: 800px;
+}
+
+/*
+ * Originally, the size of my assets were 64x64 or 32x32, so they had to be scaled.
+ They came out blurry, so I set the image-rendering to pixelated, which scales
+ off of nearest neighbor.
+ */
+
+.asset0 {
+    image-rendering: pixelated;
+    width: 200px;
+    height: 200px;
+}
+
+.asset1 {
+    image-rendering: pixelated;
+    width: 200px;
+    height: 200px;
+}
+
+/*
+ I added a border so the table would be followed easier.
+ */
+
+.table {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.table td {
+    border: 1px solid black;
+    text-align: center;
+}
