@@ -1,0 +1,119 @@
+<!--
+File: main.html
+GUI Assignment: Creating Your First Web Page
+Elliott Tinkler, UMass Lowell Computer Science, etinkler@cs.uml.edu
+File created on 5/25/2026
+This web page acts as an introduction to HTML and CSS, showcasing basic
+control over creating content on a web page, as well as stylizing it. The HTML file
+uses many features, such as links and images.
+Copyright (c) 2021 by Elliott Tinkler. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+Updated by ET on May 24, 2026 at 8:00 PM
+-->
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Elliott Tinkler</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/artists.css" />
+    </head>
+    <body>
+        <h1>Elliott Tinkler's Webpage!</h1>
+        <!--
+        The About Me section uses the <span> tag to highlight one of my favorite artists.
+        The following few sections are just a little background about me.
+        It also gives me an opportunity to insert a link to Porter Robinson's website.
+        -->
+        <h2>About Me</h2>
+        <p>
+            My name is Elliott, and I am a rising Junior at University of
+            Massachusetts Lowell. One of my favorite musical artists is
+            <span class="porter-robinson">Porter Robinson</span>. He is an EDM
+            artist who branched off into the Pop genre not too long ago.
+            <a href="https://porterrobinson.com/" target="porter"
+                >He has a very interactive and fun website</a
+            >, which made me curious about web development.
+        </p>
+        <h3>My Favorite Shows</h3>
+        <p>
+            My favorite shows include The Good Place, Schitt's Creek, Demon
+            Slayer, The Boys, and INVINCIBLE. These shows and their messages
+            have stuck with me and shaped who I am today. The Good Place
+            introduced me to ethics. Schitt's Creek taught me to see in the
+            shoes of others. Demon Slayer inspired an unshakable will in my
+            heart, and lastly, The Boys and INVINCIBLE taught me that actions
+            speak louder than words.
+        </p>
+        <!--
+        The My Journey Through Game Development section incorporates images and uses
+        a separate paragraph so no spacing issues occur. These images are taken
+        directly from the game I created (I drew them both).
+        -->
+        <h4>My Journey Through Game Development</h4>
+        <p>
+            Ever since I was little, I was fascinated by video games. This,
+            combined with my desire to learn about why things are the way they
+            are, led me to pursue this hobby, to see what makes a video game
+            click. One of my most recent projects used Minecraft almost like a
+            game engine. Here are a few assets I created for my game, which was
+            beta tested over the course of a month.
+        </p>
+        <p>
+            <img src="images/asset0.png" alt="abcd" class="asset0" />
+            <img src="images/asset1.png" alt="abcd" class="asset1" />
+        </p>
+
+        <!--
+        For organizational purposes moving forward, I've created two separate .css
+        files. These are a few of my favorite artists. This section also uses an HTML
+        Entity to display the fancy looking L in Laufey's name.
+        -->
+        <h5>Some of My Favorite Artists</h5>
+        <p><span class="porter-robinson">Porter Robinson 【=◈︿◈=】</span></p>
+        <p><span class="laufey">&Lscr;aufey</span></p>
+        <p><span class="flume">Flume</span></p>
+        <p><span class="of-monsters-and-men">Of Monsters and Men</span></p>
+        <p><span class="beach-bunny">Beach Bunny</span></p>
+
+        <!--
+        I created this section to showcase my use of a table. What better way than to
+        show love to two movies I recently watched, while bashing a third?
+        -->
+        <h6>My Ratings of Movies I Recently Watched</h6>
+        <table class="table">
+            <tr>
+                <th>Movie</th>
+                <th>Rating /10</th>
+                <th>Would I Recommend?</th>
+            </tr>
+            <tr>
+                <td>The Sheep Detectives</td>
+                <td>8.8/10</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Project Hail Mary</td>
+                <td>10/10</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Strawinsky and the Mysterious House</td>
+                <td>3/10</td>
+                <td>No</td>
+            </tr>
+        </table>
+
+        <p>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img
+                    style="border: 0; width: 88px; height: 31px"
+                    src="https://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valid CSS!"
+                />
+            </a>
+        </p>
+    </body>
+    <!-- <script src="script.js"></script> -->
+</html>
